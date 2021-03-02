@@ -9,3 +9,8 @@ source: https://images.app.goo.gl/tqCZU7uG7WfWwAt19
 
 - [Real-Time Instance Segmentation](https://paperswithcode.com/task/real-time-instance-segmentation)
 - [Instance Segmentation](https://paperswithcode.com/task/instance-segmentation)
+
+## References
+
+- https://github.com/edouardlp/Mask-RCNN-CoreML
+- https://github.com/Ma-Dan/Yolact-CoreML
