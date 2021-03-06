@@ -12,6 +12,7 @@
 		C4016BA525F3BC1F00D5C1E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4016BA325F3BC1F00D5C1E0 /* Main.storyboard */; };
 		C4016BA725F3BC2000D5C1E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4016BA625F3BC2000D5C1E0 /* Assets.xcassets */; };
 		C4016BAA25F3BC2000D5C1E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4016BA825F3BC2000D5C1E0 /* LaunchScreen.storyboard */; };
+		C4016BB625F3BF3600D5C1E0 /* yolact.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C4016BB525F3BF3600D5C1E0 /* yolact.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C4016BA625F3BC2000D5C1E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4016BA925F3BC2000D5C1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4016BAB25F3BC2000D5C1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4016BB525F3BF3600D5C1E0 /* yolact.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = yolact.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,20 @@
 				C4016B9D25F3BC1F00D5C1E0 /* AppDelegate.swift */,
 				C4016BA125F3BC1F00D5C1E0 /* ViewController.swift */,
 				C4016BA325F3BC1F00D5C1E0 /* Main.storyboard */,
+				C4016BB425F3BF1B00D5C1E0 /* mlmodels */,
 				C4016BA625F3BC2000D5C1E0 /* Assets.xcassets */,
 				C4016BA825F3BC2000D5C1E0 /* LaunchScreen.storyboard */,
 				C4016BAB25F3BC2000D5C1E0 /* Info.plist */,
 			);
 			path = "InstanceSegmentation-CoreML";
+			sourceTree = "<group>";
+		};
+		C4016BB425F3BF1B00D5C1E0 /* mlmodels */ = {
+			isa = PBXGroup;
+			children = (
+				C4016BB525F3BF3600D5C1E0 /* yolact.mlmodel */,
+			);
+			path = mlmodels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4016BB625F3BF3600D5C1E0 /* yolact.mlmodel in Sources */,
 				C4016BA225F3BC1F00D5C1E0 /* ViewController.swift in Sources */,
 				C4016B9E25F3BC1F00D5C1E0 /* AppDelegate.swift in Sources */,
 			);
