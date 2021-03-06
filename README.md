@@ -22,9 +22,9 @@ DEMO reference: https://github.com/Ma-Dan/Yolact-CoreML
 
 #### Model size, minimum iOS version, input/output shape
 
-| Model          | Size (MB) | Minimum iOS Version | Input Shape        | Output Shape      | Source Link                                     |
-| -------------- | --------- | ------------------- | ------------------ | ----------------- | ----------------------------------------------- |
-| yolact.mlmodel | 146.9     | iOS11.2             | `[1, 550, 550, 3]` | `4` MLMultiArrays | [link](https://github.com/Ma-Dan/Yolact-CoreML) |
+| Model          | Size (MB) | Minimum iOS Version | Input Shape        | Output Shape      | Download Link | Source Link                                     |
+| -------------- | --------- | ------------------- | ------------------ | ----------------- | ---- | ----------------------------------------------- |
+| yolact.mlmodel | `146.9`     | iOS11.2             | `[1, 550, 550, 3]` | `4 MLMultiArrays` | [Link](https://github.com/tucan9389/InstanceSegmentation-CoreML/releases/download/yolact/yolact.mlmodel) | [link](https://github.com/Ma-Dan/Yolact-CoreML) |
 
 #### Inference time (ms)
 
